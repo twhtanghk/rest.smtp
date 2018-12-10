@@ -4,11 +4,11 @@
   "description": "Restful Web Service to SMTP Gateway",
   "main": "index.js",
   "dependencies": {
-    "coffeescript": "^2.3.2"
   },
   "devDependencies": {
     "activerecord-model": "0.0.12",
     "co": "^4.6.0",
+    "coffeescript": "^2.3.2",
     "mocha": "^5.2.0",
     "sails": "^1.1.0",
     "sails-hook-requestlogger-file": "^2.0.5",
