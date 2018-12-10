@@ -1,0 +1,9 @@
+version: '2'
+services:
+  restsmtp:
+    image: twhtang/restsmtp
+    ports:
+      - 1337
+    env_file:
+      - ./.env
+      - ../.env
