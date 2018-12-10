@@ -1,0 +1,19 @@
+{
+  "generators": {
+    "modules": {}
+  },
+  "_generatedWith": {
+    "sails": "1.1.0",
+    "sails-generate": "1.16.2"
+  },
+  {
+    "grunt": false,
+    "i18n": false,
+    "csrf": false,
+    "cors": false,
+    "orm": false,
+    "sockets": false,
+    "session": false,
+    "views": false
+  }
+}
