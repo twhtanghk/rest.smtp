@@ -7,11 +7,16 @@
     "coffeescript": "^2.3.2"
   },
   "devDependencies": {
+    "activerecord-model": "0.0.12",
+    "co": "^4.6.0",
+    "mocha": "^5.2.0",
     "sails": "^1.1.0",
-    "sails-hook-requestlogger-file": "^2.0.5"
+    "sails-hook-requestlogger-file": "^2.0.5",
+    "sails_policy": "0.0.4",
+    "supertest": "^3.3.0"
   },
   "scripts": {
-    "start": NODE_ENV=production node app.js",
+    "start": "NODE_ENV=production node app.js",
     "test": "mocha test/bootstrap.test.coffee test/unit/**/*.coffee"
   },
   "repository": {

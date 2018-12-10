@@ -6,7 +6,7 @@
     "sails": "1.1.0",
     "sails-generate": "1.16.2"
   },
-  {
+  "hooks": {
     "grunt": false,
     "i18n": false,
     "csrf": false,

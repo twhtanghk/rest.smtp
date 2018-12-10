@@ -8,6 +8,7 @@ module.exports =
       cc: req.param 'cc'
       subject: req.param 'subject'
       msg: req.param 'msg'
+    sails.log.info _.extend user: req.user, data
     transporter
       .createTransport sails.config.email.opts
       .sendMail data, (err, info) ->
