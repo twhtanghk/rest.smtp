@@ -10,7 +10,6 @@ opts =
   user:
     id: process.env.USER_ID
     secret: process.env.USER_SECRET
-    email: process.env.USER_EMAIL
   grant_type: 'password'
 
 module.exports = 
