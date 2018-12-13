@@ -1,10 +1,10 @@
 FROM node
 
-ENV APP=/usr/src/app
+ENV APP=/usr/src/app/backend
 ADD . $APP
 
 WORKDIR $APP
 
-RUN (cd backend; yarn install)
+RUN yarn install
 
-CMD ['sh', '-c', 'cd backend && npm start']
+CMD npm start
