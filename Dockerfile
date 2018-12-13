@@ -1,9 +1,9 @@
 FROM node
 
-ENV APP=/usr/src/app/backend
+ENV APP=/usr/src/app
 ADD . $APP
 
-WORKDIR $APP
+WORKDIR $APP/backend
 
 RUN yarn install
 
